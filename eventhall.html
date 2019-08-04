@@ -231,15 +231,41 @@
                          /*media quary */
 @media(max-width:420px) {
 
-	.thumbnail{
+	.thumbnail {
   position: relative;
+  display: inline-block;
+  width: 350px;
+  height: 210px;
+  margin: 0 5px 50px 42px;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.thumbnail.green {
+  background: #1b5a2a;
+}
+.thumbnail.blue {
+  background: #1c3c5a;
+}
+.thumbnail.red {
+  background: #5a1f1a;
+}
+.thumbnail.purple {
+  background: #331f5a;
+}
+.thumbnail img {
+  position: absolute;
   top: 0;
   left: 0;
-  width: 80%;
-  height: 55%;
+  width: 100%;
+  height: 100%;
   opacity: .2;
-  text-align: center;
-  text-transform: uppercase;
   cursor: pointer;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -250,6 +276,25 @@
   -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
   filter: blur(2px);
+}
+.thumbnail .title {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-size: 1.5rem;
+  opacity: .999;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 
