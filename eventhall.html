@@ -228,6 +228,30 @@
   opacity: 0.7;
 }
 
+                         /*media quary */
+@media(max-width:420px) {
+
+	.thumbnail img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  opacity: .2;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+}
+
+}
+
  </style>
 </head>
 
@@ -511,19 +535,19 @@
  
  <body translate="no">
 <a class="thumbnail green">
-<img src="http://ggeventshall.com/images/2018/12/04/1stfloor.jpg">
+<img src="http://ggeventshall.com/images/2018/12/04/1stfloor.jpg" class="img-responsive">
 <span class="title">
 First Floor
 </span>
 </a>
 <a class="thumbnail red">
-<img src="http://ggeventshall.com/images/2018/12/04/1stfloor.jpg">
+<img src="http://ggeventshall.com/images/2018/12/04/1stfloor.jpg" class="img-responsive">
 <span class="title">
 Second Floor
 </span>
 </a>
 <a class="thumbnail blue">
-<img src="http://ggeventshall.com/images/2018/12/04/1stfloor.jpg">
+<img src="http://ggeventshall.com/images/2018/12/04/1stfloor.jpg" class="img-responsive">
 <span class="title">
 Third Floor
 </span>
