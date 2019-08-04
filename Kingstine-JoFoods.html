@@ -72,7 +72,7 @@
 
 .right{float:right}
 
-section{display:flex; margin:0px 0; width:1000px}
+section{display:flex; margin:100px 0; width:1000px}
 .picture{width:60%}
 .picture img{
 	 opacity:; margin:15px; border-radius:1%; width:100%; position-fixed
@@ -81,11 +81,11 @@ section{display:flex; margin:0px 0; width:1000px}
 .paragraph h1, h5, .title{
 	text-align:center; letter-spacing:5px; 
 }
-.paragraph h1, .title{font-size:35px; margin:0 0px;}
+.paragraph h1, .title{font-size:35px; margin:0 30px;}
 .paragraph h5{font-size:18px}
-.paragraph p{margin:0 0px;}
+.paragraph p{margin:0 10px;}
 .paragraph span{background-color:lightgrey; padding:1px 10px}
-hr{color:lightgray; width:1000px; margin:0px 0}
+hr{color:lightgray; width:1000px; margin:-50px 0}
 .allContent, .address{margin:0 15px}
 .pictureRight img{
 	width:83%; opacity:;margin:50px  0 0 60px; height:60%; border-radius:1%
@@ -125,42 +125,47 @@ button1:hover{background-color:#26264b;}
    .all, .services{
 	 width:100%; size: center center/cover;}
 	 
+	 .all, .hero{
+	 display:block; width:100%; padding-left:0px; margin:0px; border:none; overflow-bottom: hidden; size: center center/cover;
+}
+	 
   .bigPicture img{
-      margin-right:0%; padding-left: 0%; width:100%; height:300px ; 
+      margin-right:-50%; padding-left: 0%; width:100%; height:300px ; 
     }
 	.theEnd img{
       margin-right: -50%; width:100%; height:300px ;
     }
     section{display:inline-block; position: relative; margin:50px 0px 100px; width:50% !important}
     .picture, .paragraph{width:50%; !important}
-    .paragraph{ margin:0px}
-    .picture img{height:20px; width:50px; margin:2px !important}
+    .paragraph{ margin:10px}
+    .picture img{height:50%; width:30%; margin:2px !important}
     .paragraph h1 {font-size:30px; line-height:40px}
 	.meals h1{font-size:25px; padding-left: 20%; line-height:40px; text-align: center;}
 	 .try h1{margin-left: 10%;}
-    hr{margin-bottom:0px; width:300px !important}
+    hr{margin-bottom:50px; width:300px !important}
     .list p{font-size:8px}
     .list h4{font-size:10px; letter-spacing:3px;}
-    .list{margin:px}
+    .list{margin:-5px}
     .pictureRight img{width:75px;margin:30px  0 0 0px; height:500px !important}
 form input{ 
-display:inline-block; width:50%; margin-right:0px; box-sizing:border-box;
+display:inline-block; width:50%; margin-right:30px; box-sizing:border-box;
 	}
 	
 }
 @media(max-width:767px) {
-	
-	.services{
-	 width:100%;}
- .bigPicture img{ margin: 50px 0px; width:70%; height:300px}
-section{ margin:50px 0px 0px; width:75%}
+	.all, .hero{
+	 display:block; width:100%; padding-left:0px; margin:0px; border:none; overflow-bottom: hidden; size: center center/cover;
+}
+	.services{ width:100%;}
+ .bigPicture img{ margin: 50px 50px; width:70%; height:300px}
+section{ margin:50px 0px 100px; width:75%}
  .picture, .paragraph{width:80%;}
  .meals h1{font-size:30px; padding-left: 20%; line-height:40px; text-align: center;}
  .try h1{margin-left: 20%;}
-.paragraph{ margin:0px}
-    .picture img{height:700px; width:375px; margin:2px !important}
+.paragraph{ margin:10px}
+    .picture img{height:50%; width:30%; margin:2px !important}
     .paragraph h1 {font-size:30px; line-height:40px}
-    .title{font-size:20px; margin:0px 0 0 -100px !important}
+    .title{font-size:20px; margin:-20px 0 0 -100px !important}
     hr{margin-bottom:50px; width:800px}
     .list p{font-size:15px}
     .list h4{font-size:16px; letter-spacing:3px;}
@@ -169,17 +174,18 @@ section{ margin:50px 0px 0px; width:75%}
 		
   }
 @media(min-width:768px) {
-   
-	.services{
-	 width:100%;size: center center/cover;}
+   .all, .hero{
+	 display:block; width:100%; padding-left:0px; margin:0px; border:none; overflow-bottom: hidden; size: center center/cover;
+}
+	.services{width:100%;size: center center/cover;}
 	 
     .bigPicture img{ margin: 50px 50px; width:75%; height:350px}
-    section{ margin:50px 0px 0px; width:80%}
+    section{ margin:50px 0px 100px; width:80%}
     .picture, .paragraph{width:50%;}
 	.meals h1{font-size:35px; padding-left: 20%; line-height:40px; text-align: center;}
 	.try h1{margin-left: 20%;}
     .paragraph{ margin:10px}
-    .picture img{height:500px; width:450px; margin:2px !important}
+    .picture img{height:50%; width:30%; margin:2px !important}
     .paragraph h1 {font-size:30px; line-height:40px}
     .title{font-size:20px; margin:-10px 0 0 -150px !important}
     hr{margin:50px 0; width:900px}
@@ -189,17 +195,17 @@ section{ margin:50px 0px 0px; width:75%}
     .pictureRight img{width:450px;margin:20px  0 0 0px; height:650px}
   }
 @media(min-width:992px) {
-.bigPicture img{width:100%; height:300px ; margin: 50px 0px; size: cover;}
-  section{margin:75px 0px 0px ; width:100%}
+.bigPicture img{width:100%; height:300px ; margin: 50px 100px; size: cover;}
+  section{margin:75px 5px 0px ; width:100%}
     .picture{width:50%;}
-    .paragraph{float:right; margin:10px 0px 0px 0px; width:40%}
+    .paragraph{float:right; margin:10px 20px 5px 0px; width:40%}
     .picture img{height:600px; width:500px; margin:2px !important}
     .paragraph h1 {font-size:30px; line-height:40px}
     .title{font-size:20px; margin:-10px 0 0 -100px !important}
     hr{margin:50px 0; width:1000px}
     .list p{font-size:17px}
     .list h4{font-size:18px; letter-spacing:3px;}
-    .list{margin:0px}
+    .list{margin:10px}
 	.pictureRight{
 		width:50%
 	}
@@ -240,7 +246,7 @@ p {
 	height: 1.5px;
 	bottom: 0;
 	left: 50%;
-	margin-left: 0px;
+	margin-left: -40px;
 }
 .section-title h4::before, .section-title h4::after {
 	position: absolute;
@@ -252,7 +258,7 @@ p {
 	height: 1.5px;
 	bottom: -5px;
 	left: 50%;
-	margin-left: 0px;
+	margin-left: -20px;
 }
 .single_service.service_right {
 	padding-right: 70px;
