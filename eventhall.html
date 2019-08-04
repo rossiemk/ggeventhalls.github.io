@@ -250,6 +250,59 @@
   filter: blur(2px);
 }
 
+.thumbnail {
+  position: relative;
+  display: inline-block;
+  width: 125px;
+  height: 105px;
+  margin: 0 5px 50px 5px;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.thumbnail .title {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-size: 1.5rem;
+  opacity: .999;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.single_menu_list img {
+	max-width: 40%;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	border: 1px solid #ddd;
+	padding: 3px;
+	border-radius: 50%;
+	transition: .4s
+}
+
+.menu_content {
+	position: relative;
+	padding-right: 50px;
+	
+}
 }
 
  </style>
