@@ -56,6 +56,27 @@
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
+	
+	@media(max-width:420px) {
+	.featured-img {
+		margin-left: 0%; margin:15px; border-radius:1%; margin-top: 30%;
+	}
+	
+	.featured-big {
+	margin-left: 0%; margin:15px; border-radius:1%; height: 30%; margin-top: 30%;
+	}
+}
+	@media(max-width:767px) {
+		.featured-img img{
+		margin-left: 0%; margin:15px; border-radius:1%; margin-top: 50%;
+	}
+
+}
+@media(min-width:768px) {
+	  .featured-img img{
+		margin-left: 0%; margin:15px; border-radius:1%;margin-top: 50%;
+	}
+}
 	</style>
 </head>
 
@@ -210,10 +231,11 @@
                         </div>
                     </div>
                     </div>
+					
                 <div class="col-md-6" data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">
                     <div class="featured-img">
-                        <img class="featured-big" src="assets/images/featured-img1.jpg" alt="about us">
-                        <img class="featured-small" src="assets/images/Webp.net-gifmaker.gif" alt="about us">
+                        <img class="featured-big" src="assets/images/featured-img1.jpg" alt="about us" class="img-responsive">
+                        <img class="featured-small" src="assets/images/Webp.net-gifmaker.gif" alt="about us" class="img-responsive">
                     </div>
                 </div>
             </div>
