@@ -231,13 +231,15 @@
                          /*media quary */
 @media(max-width:420px) {
 
-	.thumbnail img {
+	.thumbnail, .thumbnail img , .thumbnail .title {
   position: relative;
   top: 0;
   left: 0;
   width: 50%;
   height: 50%;
   opacity: .2;
+  text-align: center;
+  text-transform: uppercase;
   cursor: pointer;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -250,42 +252,6 @@
   filter: blur(2px);
 }
 
-.thumbnail {
-  position: relative;
-  display: inline-block;
-  width: 125px;
-  height: 105px;
-  margin: 0 5px 50px 5px;
-  background: #fff;
-  text-align: center;
-  overflow: hidden;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  transform: translateZ(0);
-}
-
-.thumbnail .title {
-  position: absolute;
-  left: 0;
-  top: 40%;
-  width: 50%;
-  text-align: center;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 600;
-  font-size: 1.5rem;
-  opacity: .999;
-  cursor: pointer;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  transform: translateZ(0);
-}
 
 .single_menu_list img {
 	max-width: 40%;
@@ -298,10 +264,9 @@
 	transition: .4s
 }
 
-.menu_content {
+.single_menu_list {
 	position: relative;
-	padding-right: 50px;
-	
+	padding: -30px;
 }
 }
 
