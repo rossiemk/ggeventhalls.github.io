@@ -3,8 +3,20 @@
 ------------------------------------*/
 @media (min-width: 420px) {
   .navbar-brand img {
-    width: 300px;
+    width: 260px;
 	height: 50px;
+	display: inline;
+	position: relative;
+  }
+  
+   .hero .slide-content p {
+    padding-right: 50px;
+	display: inline-block;
+	position: relative;
+  }
+  
+  .hero .slide-content h1 {
+    margin: 100px 0 50px 0;
   }
 }
 
@@ -16,7 +28,13 @@
     min-height: 700px;
   }
   .hero .slide-content h1 {
-    margin-top: 100px;
+    margin: 100px 0 50px 0;
+  }
+  
+  .hero .slide-content p {
+    padding-right: 50px;
+	display: inline;
+	position: relative;
   }
   .recent-posts .row .col-lg-6:nth-of-type(odd) .post-thumb {
     margin-top: 0;
@@ -29,6 +47,8 @@
   .navbar-brand img {
     width: 260px;
 	height: 42px;
+	display: inline;
+	position: relative;
   }
 }
 
