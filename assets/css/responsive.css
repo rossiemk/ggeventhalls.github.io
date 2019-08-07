@@ -249,6 +249,11 @@
 	display: inline-block;
 	position: relative;
   }
+  .hero .slide-content p {
+    padding-right: 50px;
+	display: inline-block;
+	position: relative;
+  }
   .hero .arr-left,
   .hero .arr-right {
     top: 50%;
@@ -302,4 +307,10 @@
     height: 100%;
     padding: 75px 0;
   }
+  .hero .slide-content p {
+    padding-right: 50px;
+	display: inline-block;
+	position: relative;
+  } 
+  
 }

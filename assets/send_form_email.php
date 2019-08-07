@@ -88,3 +88,15 @@ Thank you for contacting us. We will be in touch with you very soon.
  
 }
 ?>
+
+
+
+
+
+
+
+
+
+
+
+Thank you for chatting with us. Feel free to start new chat session or enter your email and send a transcript of this conversation to your inbox.
