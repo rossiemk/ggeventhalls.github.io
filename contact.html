@@ -44,6 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
         rel="stylesheet">
     <!-- Plugins Stylesheets -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/loader/loaders.css">
     <link rel="stylesheet" href="assets/css/font-awesome/font-awesome.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
@@ -192,7 +193,7 @@ textarea {
 	font-size: 15px;
 	font-weight: 400;
 }
-.contact-form button[type="submit"] {
+.contact-form input[type="submit"] {
 	background-color: #ee1515;
 	border: 0px;
 	cursor: pointer;
@@ -371,7 +372,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="row text-center">
                   <div class="col-md-8">
-					<form name="contactform" method="post" action="assets/send_form_email.php">                        
+					<form role="form" name="contactform" id="reused_form" method="post">                        
 						<div class="row">
                            <div class="col-xl-6 form-group">
                               <input type="text" class="form-control" placeholder="name" id="name" name="name" required>
@@ -503,7 +504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <div class="input-group form-group">
                                     <input class="field form-control" id="email" name="email" type="email" placeholder="Email Address" required >
 									  <span class="input-group-btn form-group">
-									  <button type="submit" name="submit-mail" class="btn btn-lg btn-default"><i class="fa fa-check"></i></button>
+									  <input type="submit" name="submit-mail" class="btn btn-lg btn-default" ><i class="fa fa-check"></i></button>
                                     </span>
                                 </div>
                             </form>
