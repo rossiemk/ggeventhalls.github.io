@@ -46,7 +46,7 @@ class FormHandler
 
 		$host = isset($_SERVER['SERVER_NAME'])?$_SERVER['SERVER_NAME']:'localhost';
         $from_email ='forms@'.$host;
-   		$this->mailer->setFrom('http://ggeventhall.com','Contact Form',false);  
+   		$this->mailer->setFrom('http://ggeventhalls.com','Contact Form',false);  
 
    		$this->captcha = false;   
 
