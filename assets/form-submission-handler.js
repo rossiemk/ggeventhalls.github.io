@@ -87,8 +87,12 @@
           console.log(xhr.status, xhr.statusText);
           console.log(xhr.responseText);
           var formElements = form.querySelector(".form-elements")
+		  var Elements = form.querySelector(".Elements")
           if (formElements) {
             formElements.style.display = "none"; // hide form
+          }
+		  else if (Elements) {
+            Elements.style.display = "none"; // hide form
           }
           var thankYouMessage = form.querySelector(".thankyou_message");
           if (thankYouMessage) {
