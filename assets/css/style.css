@@ -24,6 +24,36 @@
 /*-----------------------------------
     1 - Header
 ------------------------------------*/
+/*-- bottom-to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 24px;
+	right: 1%;
+	overflow: hidden;
+	z-index: 999; 
+    width: 64px;
+    height: 64px;
+	border: none;
+	text-indent: 100%;
+	background: url("assets/images/arrow-up.png") no-repeat 0px 0px;
+}
+#toTopHover {
+    width: 64px;
+    height: 64px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+	
+	
+}
+/*-- //bottom-to-top --*/
+
+
 header {
   background-color: rgba(26, 10, 56, 0.53);
   color: #fff;
@@ -200,6 +230,7 @@ background-attachment: fixed;
 
 .hero .slide-content p {
   color: #170936;
+  font-size: 3rem
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
   padding: 35px 0 35px 30px;

@@ -229,7 +229,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="swiper-slide slide-content d-flex align-items-center">
                                 <div class="single-slide">
                                     <h1 data-aos="fade-center" data-aos-delay="200">About Us...</h1>
-                                    <p data-aos="fade-center" data-aos-delay="600">Who We Are</p>
+                                    <p data-aos="fade-center" data-aos-delay="600"><strong>Who We Are</strong></p>
                                 </div>
                             </div>
                             </div>
@@ -669,6 +669,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
         <!-- Foot Note End -->
 		</section>
+		
+		
+		<a href="#" id="toTop" style="display: block;">
+		<span id="toTopHover" style="opacity: 1;"> </span>
+	</a>
     </footer>
     <!-- Footer Endt -->
     <!--jQuery-->
@@ -682,6 +687,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!--Template Script-->
     <script src="assets/js/main.js"></script>
 </div>
+
+<script src="assets/js/move-top.js"></script>
+<!-- smooth scrolling-bottom-to-top -->
+	<script>
+	    $(document).ready(function () {
+	        /*
+	        var defaults = {
+	        containerID: 'toTop', // fading element id
+	        containerHoverID: 'toTopHover', // fading element hover id
+	        scrollSpeed: 1200,
+	        easingType: 'linear' 
+	        };
+	        */
+	        $().UItoTop({
+	            easingType: 'easeOutQuart'
+	        });
+	    });
+	</script>
+	
+	<!-- //smooth scrolling-bottom-to-top -->
 
 <!-- Submit the Form to Google Using "AJAX" -->
   <script data-cfasync="false" type="text/javascript" src="assets/form-submission-handler.js"></script>
