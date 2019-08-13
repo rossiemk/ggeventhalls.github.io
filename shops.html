@@ -80,7 +80,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	margin: 20px 0 20px 0;
 	
 }
-
 	
 	 /*media quary */
 @media(max-width:420px) {
@@ -134,9 +133,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- Loader Start -->
-<a href="#" id="toTop" style="display: block;">
-		<span id="toTopHover" style="opacity: 1;"> </span>
-	</a>
+<a href="#" onclick="topFunction()" id="myBtn" title="Go to top" style="display: block; float: left;">
+		<span id="myBtn:hover" style="opacity: 1;"> </span>
 	
     <div class="css-loader">
         <div class="loader-inner line-scale d-flex align-items-center justify-content-center"></div>
@@ -494,24 +492,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</section>
     </footer>
     <!-- Footer Endt -->
-	<!-- smooth scrolling-bottom-to-top -->
-	<script>
-	    $(document).ready(function () {
-	        /*
-	        var defaults = {
-	        containerID: 'toTop', // fading element id
-	        containerHoverID: 'toTopHover', // fading element hover id
-	        scrollSpeed: 1200,
-	        easingType: 'linear' 
-	        };
-	        */
-	        $().UItoTop({
-	            easingType: 'easeOutQuart'
-	        });
-	    });
-	</script>
-	
-	<!-- //smooth scrolling-bottom-to-top -->
 	
     <!--jQuery-->
     <script src="assets/js/jquery-3.3.1.js"></script>
@@ -524,9 +504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!--Template Script-->
     <script src="assets/js/main.js"></script>
 	<script src="assets/js/map.js"></script>
-	
 	<script src="assets/js/move-top.js"></script>
-	
 	
 	<!-- Submit the Form to Google Using "AJAX" -->
   <script data-cfasync="false" type="text/javascript" src="assets/form-submission-handler.js"></script>
