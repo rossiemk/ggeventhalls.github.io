@@ -750,27 +750,7 @@ s*/
     border: none;
     height: 3em;
 }
-.book-right button[type=submit] {
-    color:  #ee1515;
-    padding: .4em 1em;
-    font-size: 1.5em;
-    cursor: pointer;
-    outline: none;
-    border-radius: 3px;
-	background: #ee1515;   
-    width: 100%;
-    font-family: 'Stint Ultra Condensed', cursive;
-    line-height: 1em;
-}
-.book-right button[type=submit]:hover {
-    background: #ee1515;
-	color:  #ee1515;
-    transition: 0.5s all ease;
-    -webkit-transition: 0.5s all ease;
-    -moz-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    -ms-transition: 0.5s all ease;
-}
+
 span.burger {
     background: url(../images/img2.jpg)no-repeat;
     background-size: contain;
@@ -959,12 +939,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li class="nav-item"><a class="nav-link" href="shops.html">Shops</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                     </ul>
-                    <form class="bg-white search-form" method="get" id="searchform">
-                        <div class="input-group">
-                            <input class="field form-control" id="s" name="s" type="text" placeholder="Search">
+                    <form class="bg-white search-form" method="get" id="searchform" >
+                        <div class="input-group" style="padding: -10 0 0 0; height: 50px;">
+                            <input class="field form-control" id="s" name="s" type="text" placeholder="Search"  style="margin: 0 0 -3.5em 0;">
                             <span class="input-group-btn">
-                                <input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit"
-                                    value="Search">
+                                <input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit" value="Search" style="width: 10em;">
                             </span>
                         </div>
                     </form>
@@ -1505,7 +1484,8 @@ Utilise our well situated shops to propel your business forward with access to t
 			<input type="text" placeholder="Message \ Special requirements" id="Message" name="Message" required>
 			<div class="subscribe-btn" data-aos="fade-left" data-aos-delay="400" data-aos-offset="0">
 			 <span class="input-group-btn form-group">
-			  <button type="submit" name="submit-mail" class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit">Submit</button>
+			  <button type="submit" name="submit-mail" class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit" style="background-color: #ee1515;
+	border: 0px;color: #fff;cursor: pointer;font-size: 16px;-webkit-transition: .4s; margin: 1em 0 0 7.5em; transition: .4s">Submit</button>
 			</span>
             </form>
 		</section>
