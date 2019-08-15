@@ -28,7 +28,7 @@
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 24px;
+  bottom: 6px;
   right: 1%;
   z-index: 999; 
   width: 64px;
@@ -53,6 +53,16 @@
 }
 /*-- //bottom-to-top --*/
 
+.fb-page {
+	width: 260px;
+	margin-left: -13px;
+	position: relative;
+  }
+.blockquote-footer {
+	font-size: 17px;
+  line-height: 27px;
+  color: #fff;
+}
 
 header {
   background-color: rgba(26, 10, 56, 0.53);
