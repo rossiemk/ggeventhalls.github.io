@@ -28,7 +28,7 @@
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 6px;
+  bottom: 0%;
   right: 1%;
   z-index: 999; 
   width: 64px;
@@ -54,9 +54,7 @@
 /*-- //bottom-to-top --*/
 
 .fb-page {
-	width: 260px;
-	margin-left: -13px;
-	position: relative;
+	right: 10%;
   }
 .blockquote-footer {
 	font-size: 17px;
