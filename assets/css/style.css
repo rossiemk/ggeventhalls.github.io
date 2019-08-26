@@ -39,6 +39,19 @@
 
 /*-- //bottom-to-top --*/
 
+ 
+/* :: 23.0 Contact Area CSS */
+#map {
+    width: 700px;
+    height: 520px;
+    border: none;
+	overflow: ;
+    margin-right: 20px;
+	padding-right: 50px;
+    border-radius: 5px; 
+}
+    
+
 .fb-page {
 	right: 0%;
   }
@@ -691,7 +704,7 @@ background-attachment: fixed;
 }
 
 .testimonials {
-  padding: 95px 0 85px;
+  padding: 30px 0 20px;
   color: #fff;
   border-bottom: 1px solid #26264b;
 }
