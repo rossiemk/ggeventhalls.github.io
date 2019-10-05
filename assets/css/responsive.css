@@ -19,6 +19,7 @@
     margin: 100px 0 50px 0;
   }
   
+  
 }
 
 @media (max-width: 420px) {
@@ -39,6 +40,9 @@
     margin: 100px 0 35px 0;
   }
   
+  .fb-page {
+	
+  }
 }
 
 @media (min-width: 576px) {
@@ -71,9 +75,10 @@
 	display: inline;
 	position: relative;
   }
-  .navbar-brand {
-	  
-	  
+  
+  .fb-page {
+	
+  }
 }
 
 /*-----------------------------------
@@ -287,6 +292,9 @@
   background-color: #fff;
 }
 
+.fb-page {
+	
+  }
 
 }
 
@@ -319,5 +327,8 @@
 	position: relative;
   } 
   
+  .fb-page {
+
+  }
   
 }
